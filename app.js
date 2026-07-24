@@ -1,5 +1,6 @@
 const btnInc = document.getElementById("btnIncrementar");
 const btnDec = document.getElementById("btnDecrementar");
+const contador = document.getElementById("contador");
 let aux = 0;
 function actualizarColor() {
     if (aux >= 10) {
